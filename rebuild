@@ -1,0 +1,5 @@
+#!/bin/sh
+. /nix/var/nix/profiles/default/etc/profile.d/nix.sh
+pushd ~/uberspace
+nix-build --keep-failed
+rsync -rLptgoDv ~/uberspace/result/html ~/html

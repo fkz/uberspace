@@ -1,0 +1,2 @@
+#!/bin/sh
+~/proot-x86_64 -b ~/nix-mnt/nix-1.10-x86_64-linux/:/nix ~/uberspace/rebuild 
